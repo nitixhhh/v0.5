@@ -3,23 +3,24 @@
   <!-- Animated Logo/Header -->
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="80" height="80" />
   
-  # <span style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">DevStudio AI</span>
+  # <span style="background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">DevStudio AI</span>
   
-  ### *The Agentic IDE That Codes With You, Not Just For You*
+  ### *The Agentic, Liquid-Glass IDE That Codes With You, Not Just For You*
   
   <!-- Animated Badges -->
   <p>
-    <img src="https://img.shields.io/badge/Version-0.5.0-ff6b6b?style=for-the-badge&logo=github&logoColor=white" />
-    <img src="https://img.shields.io/badge/Status-Beta%20Release-4ecdc4?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/License-MIT-45b7d1?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Version-1.2.0-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Version" />
+    <img src="https://img.shields.io/badge/Status-Stable%20Release-06b6d4?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/License-MIT-3b82f6?style=for-the-badge" alt="License" />
   </p>
   
-  <!-- Tech Stack Badges with Animation -->
+  <!-- Tech Stack Badges -->
   <p>
-    <img src="https://img.shields.io/badge/Node.js-22.x-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=1a1a1a" />
-    <img src="https://img.shields.io/badge/Electron-39.x-47848F?style=flat-square&logo=electron&logoColor=white&labelColor=1a1a1a" />
-    <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white&labelColor=1a1a1a" />
-    <img src="https://img.shields.io/badge/AI-Antigravity-FF6F61?style=flat-square&logo=googlecloud&logoColor=white&labelColor=1a1a1a" />
+    <img src="https://img.shields.io/badge/Node.js-22.x-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=1a1a1a" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Electron-39.x-47848F?style=flat-square&logo=electron&logoColor=white&labelColor=1a1a1a" alt="Electron" />
+    <img src="https://img.shields.io/badge/React-19.x-61DAFB?style=flat-square&logo=react&logoColor=white&labelColor=1a1a1a" alt="React" />
+    <img src="https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white&labelColor=1a1a1a" alt="Tailwind" />
+    <img src="https://img.shields.io/badge/AI-Antigravity%20%26%20Codex-FF6F61?style=flat-square&logo=googlecloud&logoColor=white&labelColor=1a1a1a" alt="AI Brain" />
   </p>
 
   <!-- Quick Action Buttons -->
@@ -41,15 +42,15 @@
 
 ## 🎬 What Makes It Different?
 
-> **"It's not just an editor. It's a coding partner that understands your codebase, executes commands, and keeps you updated via Telegram—all while running locally on your machine."**
+> **"It's not just an editor. It's an autonomous coding companion wrapper that integrates multi-provider AI agents, offers a macOS-inspired liquid glassmorphism interface, and keeps you remotely connected via a secure Telegram Gateway."**
 
 <div align="center">
 
-| 🧠 **Autonomous Agent** | 💻 **VS Code Experience** | 📱 **Remote Control** |
+| 🧠 **Autonomous Agentic Brain** | 📂 **VS Code Architected Tree** | 📱 **Remote Control Gateway** |
 |:---:|:---:|:---:|
-| Thinks & acts independently | Monaco Editor + IntelliSense | Telegram integration |
-| Multi-step reasoning | Full terminal integration | Real-time activity logs |
-| Safe execution guards | Extension ecosystem | Mobile IDE access |
+| Dual Google & OpenAI OAuth | Zero-latency inline SVGs | Remote command triggering |
+| Multi-step reasoning loops | Virtualized node tree (10K+ files) | Real-time status reporting |
+| Safe operation confirmation guard | Portal-based context menus | Mobile-friendly workspace monitoring |
 
 </div>
 
@@ -57,61 +58,60 @@
 
 ## ✨ Core Capabilities
 
-### 🤖 Agentic AI Engine
-```diff
-+ Autonomous Code Navigation
-+ Smart File Operations (Read/Write/Search)
-+ Terminal Command Execution
-+ Multi-step Thinking Loop
-+ Context-Aware Suggestions
-```
-🚀 **Antigravity Powered**: Leverages Google Cloud Code Assist for superior reasoning
-🛡️ **Safety First**: Built-in confirmation manager for destructive operations
-🔄 **Iterative Reasoning**: Complex task breakdown with visible thought process
+### 🤖 Multi-Provider Agentic AI Engine
+* **Double OAuth PKCE Flows:** Completely isolated authentication paths for Google Antigravity & OpenAI Codex.
+* **Flexible Providers:** Run with Google Cloud Gemini, OpenAI Codex, or custom Modal GLM endpoints.
+* **Autonomous Task Loop:** Multi-step thinking loop allowing the agent to read, write, execute terminal commands, and verify changes iteratively.
+* **Summon Agent Anywhere:** Instantly open the AI session panel using <kbd>Ctrl</kbd> + <kbd>I</kbd>.
+* **Confirm Before Destructive Action:** High-safety confirmation guards for file deletions or system commands.
+
+### 🎨 Premium Liquid Glassmorphism UI
+* **macOS-inspired Panels:** Blurry transparent sidebars, glowing acrylic accents, and smooth transition animations.
+* **Custom Theme Manager:** Tailor the IDE background and text themes dynamically.
+* **Rich Activity Dashboard:** Visual phase indicators showing the AI's internal process (THINKING ➔ READING ➔ WRITING ➔ EXECUTING ➔ VERIFYING ➔ DONE).
+
+### 📁 Advanced File Explorer
+* **Zero-Latency SVG Icons:** Material Icon style paths drawn synchronously on first paint—no dynamic imports or latency.
+* **Visual Indent Guides:** Tree branch guidelines for deep directory nested files.
+* **Portal-Based Context Menu:** Rendered directly into the document body to prevent clipping or instant-disappearing bugs.
+* **CSS-Only Hover System:** Eliminates unnecessary React re-renders on mousemove.
+* **Non-Blocking Git Badges:** Real-time modified (`M`), added (`A`), and untracked (`U`) badges without blocking the main event loop.
 
 ### 💻 Developer Experience
-```diff
-+ Monaco Editor (VS Code Core)
-+ Xterm.js Terminal (node-pty)
-+ Real-time File Watching (Chokidar)
-+ Hot Module Replacement
-+ Extension API (Beta)
-```
-
-### 📱 Telegram Gateway
-```diff
-+ Mobile IDE Control
-+ Real-time Notifications
-+ Task Queue Management
-+ Secure Bot Integration
-+ Activity Dashboard
-```
+* **Monaco Editor Wrapper:** Core VS Code editor with full syntax highlighting, tabs, breadcrumbs, search, and diagnostics.
+* **Real PTY Terminals:** Xterm.js terminal sheets backed by a real Node-pty backend wrapper.
+* **Chokidar File Watching:** Real-time hot module replacement and folder updates.
 
 ---
 
 ## 🏗️ System Architecture
 
-```plain
-┌─────────────────────────────────────────────────────────────┐
-│                        ELECTRON SHELL                       │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐   │
-│  │   React UI   │  │ Monaco Editor│  │  Xterm Terminal  │   │
-│  │  (Vite+TW)   │  │              │  │                  │   │  
-│  └──────────────┘  └──────────────┘  └──────────────────┘   │
-└────────────────────┬────────────────────────────────────────┘
-                     │ Socket.io
-┌────────────────────▼────────────────────────────────────────┐
-│                        NODE.JS BACKEND                      │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐   │
-│  │  AI Core     │  │ File System  │  │   Extension      │   │
-│  │  (Antigravity)│  │   Manager    │  │     Host        │   │
-│  └──────────────┘  └──────────────┘  └──────────────────┘   │ 
-└────────────────────┬────────────────────────────────────────┘
-                     │ HTTPS/Webhook
-┌────────────────────▼────────────────────────────────────────┐
-│                     TELEGRAM GATEWAY                        │
-│              Secure Mobile Command Interface                │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+graph TD
+    subgraph Electron Shell [Electron Desktop Shell]
+        UI[React 19 Frontend - Vite + Tailwind]
+        Monaco[Monaco Code Editor]
+        Xterm[Xterm.js Terminal]
+    end
+
+    subgraph Node.js Backend [Node.js Backend Local Server]
+        Server[Express Server & Socket.IO]
+        Brain[AI Brain - Antigravity/Codex/Modal]
+        Tools[Tool Router]
+        FS[File System Manager]
+        PTY[Node-PTY Terminal Service]
+        Gateway[Telegram Gateway Manager]
+    end
+
+    UI <-->|Socket.IO| Server
+    Monaco <-->|Local FS| FS
+    Xterm <-->|Socket.IO| PTY
+    Server <--> Brain
+    Brain <--> Tools
+    Tools --> FS
+    Tools --> PTY
+    Server <--> Gateway
+    Gateway <-->|Telegram API| Bot[Telegram Bot Remote Control]
 ```
 
 ---
@@ -119,143 +119,100 @@
 ## ⚡ Quick Start
 
 ### Prerequisites
-✅ **Node.js v22+**
-✅ **Git**
-✅ **4GB RAM minimum**
+* **Node.js v22+**
+* **Git**
+* **4GB RAM minimum**
 
-### 🚀 One-Line Install
-```bash
-# Clone & Setup
-git clone https://github.com/yadavnithi887-hue/v0.5.git && cd v0.5 && npm install && cd backend && npm install
+### 1. Installation
+Clone the repository and install dependencies for both the frontend and backend workspace:
+
+```powershell
+# Clone the repository
+git clone https://github.com/yadavnithi887-hue/v0.5.git
+cd v0.5
+
+# Install root dependencies
+npm install
+
+# Install backend dependencies
+cd backend
+npm install
+cd ..
 ```
 
-### 🏃 Run Development
-```bash
-# Start everything (Frontend + Backend + Electron)
+### 2. Run the Application
+Start the frontend, backend server, and Electron shell simultaneously using the concurrent runner:
+
+```powershell
 npm run start:full
 ```
 
-### 🔐 Connect AI (30 seconds)
-1. Open Settings (`Ctrl/Cmd + ,`)
-2. Click **"Connect Google Account"**
-3. OAuth flow on `localhost:<callback-port>` (default `51121`, auto-fallback if blocked)
-4. ✅ Auto-discovered `projectId`
+---
 
-### 📱 Telegram Setup (2 Minutes)
+## 🔐 AI Brain Authentication
 
-<div align="center">
+### Google Antigravity OAuth
+1. Open the Settings panel inside the IDE (<kbd>Ctrl/Cmd</kbd> + <kbd>,</kbd>).
+2. Click **"Connect Google Account"**.
+3. Authenticate in the browser page on the local callback port (default `51121`).
+4. The IDE will automatically discover your GCP `projectId`.
 
-| Step | Action | Command |
+### OpenAI Codex OAuth
+1. Open the Settings panel inside the IDE.
+2. Click **"Connect OpenAI Codex"**.
+3. Authenticate in the browser via OpenAI's OAuth endpoint.
+4. The callback automatically completes using `http://localhost:1455/auth/callback`. If blocked, copy and paste the redirect URL manually into the setup panel.
+
+---
+
+## 📱 Telegram Gateway Setup
+
+You can remote control your AI tasks and monitor long builds directly from your mobile phone.
+
+| Step | Action | Description / Command |
 | :--- | :--- | :--- |
-| 1 | Create Bot | Message @BotFather `/newbot` |
-| 2 | Get Token | Copy the API token provided |
-| 3 | Get Chat ID | Message @userinfobot |
-| 4 | Configure | Paste in DevStudio Settings |
-| 5 | Activate | Click "Start Gateway" 🚀 |
+| **1** | **Create Bot** | Message `@BotFather` on Telegram and type `/newbot`. |
+| **2** | **Get Token** | Copy the API token provided by `@BotFather`. |
+| **3** | **Get Chat ID** | Message `@userinfobot` to retrieve your account's unique Chat ID. |
+| **4** | **Configure** | Navigate to DevStudio Settings and paste the Token & Chat ID. |
+| **5** | **Activate** | Click **"Start Gateway"** 🚀 inside the dashboard to link the bot. |
 
-</div>
-
-> 💡 **Pro Tip**: Use it to start long builds while away from desk, or get notified when AI completes a complex refactoring!
+> 💡 **Pro Tip**: Ask your agent to write a script or build your app. Go grab a coffee, and get notified on Telegram the moment it completes the job!
 
 ---
 
-## 🛠️ Tech Stack Deep Dive
+## 🗺️ Project Roadmap
 
-### Frontend Layer
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Radix](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radix-ui&logoColor=white)
-
-### Backend & Desktop
-![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=electron&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-
-### AI & Integration
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-
----
-
-## 🗺️ Roadmap 2024-2025
-
-```mermaid
-gantt
-    title DevStudio AI Development Roadmap
-    dateFormat  YYYY-MM-DD
-    section Core
-    Multi-root Workspaces       :active, 2024-03-01, 30d
-    Git Integration Panel       : 2024-04-01, 30d
-    section Collaboration
-    Live Share (Beta)           : 2024-05-01, 60d
-    Voice Control (Telegram)    : 2024-07-01, 45d
-    section Ecosystem
-    Extension API (Public)     : 2024-09-01, 60d
-    Plugin Marketplace          : 2024-11-01, 60d
-```
-
-- [x] **v0.5** - Core IDE + AI Agent + Telegram Gateway ✅
-- [ ] **v0.6** - Multi-root workspaces & Git panel
-- [ ] **v0.7** - Live Share & Voice commands
-- [ ] **v0.8** - Public Extension API
-- [ ] **v1.0** - Production Ready 🎯
-
----
-
-## 📊 Project Stats
-
-<div align="center">
-
-![Stars](https://img.shields.io/github/stars/yadavnithi887-hue/v0.5?style=social)
-![Forks](https://img.shields.io/github/forks/yadavnithi887-hue/v0.5?style=social)
-![Issues](https://img.shields.io/github/issues/yadavnithi887-hue/v0.5)
-![License](https://img.shields.io/github/license/yadavnithi887-hue/v0.5)
-
-</div>
+- [x] **v0.5.0** - Core IDE shell + initial AI tools + basic Telegram notifications.
+- [x] **v1.2.0** - Multi-provider isolated OAuth (Google & OpenAI Codex), Virtualized file explorer, macOS liquid glassmorphism.
+- [ ] **v1.3.0** - Local SQLite Database integration for unlimited persistent session history.
+- [ ] **v1.4.0** - Monaco built-in side-by-side diff viewer.
+- [ ] **v2.0.0** - Live collaborative share & voice control integration.
 
 ---
 
 ## 🤝 Contributing
 
-We love contributions! See our [Contributing Guide](CONTRIBUTING.md) for details.
+We love contributions! Follow these steps to submit a feature:
 
-```bash
-# Fork and clone
-git clone https://github.com/your-username/v0.5.git
-
-# Create feature branch
-git checkout -b feature/amazing-feature
-
-# Commit changes
-git commit -m "✨ Add amazing feature"
-
-# Push to branch
-git push origin feature/amazing-feature
-
-# Open Pull Request
-```
+1. **Fork** the project repository.
+2. Create your feature branch (`git checkout -b feature/amazing-feature`).
+3. Commit your changes (`git commit -m '✨ Add amazing feature'`).
+4. Push to the branch (`git push origin feature/amazing-feature`).
+5. Open a **Pull Request** on GitHub.
 
 ---
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for details.
 
 <div align="center">
 
-🌟 **Star us on GitHub** — it motivates us a lot!
+🌟 **Star our repository on GitHub if you love what we are building!**
 
 Made with ❤️ by the DevStudio Team
 
-[X.com](https://x.com/NitishYadav1947) | [E-mail](nitishyadav2976@gmail.com)
+[X.com](https://x.com/NitishYadav1947) | [E-mail](mailto:nitishyadav2976@gmail.com)
 
 </div>
-
-<!-- Animated footer -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" width="20" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" width="20" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" width="20" />
-</p>
-
