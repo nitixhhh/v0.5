@@ -191,6 +191,30 @@ You can remote control your AI tasks and monitor long builds directly from your 
 
 ---
 
+## 📋 Technical Backlog & Sprints
+
+To ensure DevStudio AI reaches production-grade reliability and security, the following critical issues and improvements are scheduled for immediate sprints:
+
+### 🔴 P0 — Critical Security Backlog (High Priority)
+* **Secret Protection & Git Exclusion:** Remove committed `backend/.env` containing active Google Cloud credentials, configure template `.env.example`, and enforce local user environment instructions.
+* **API & Socket Authentication Middleware:** Implement a secure token-based comparison mechanism (`DEVSTUDIO_SECRET_KEY`) for REST endpoints and Socket.IO handshakes to block unauthorized local executions.
+* **Path Traversal Vulnerability Fix:** Reinforce `FileSystemTools._validatePath()` to strictly block directory traversal attempts (e.g. `../../etc/passwd`) and fail gracefully if the workspace is uninitialized.
+* **Environment-Based CORS Origins:** Refactor hardcoded local origins in `server.js` to dynamically load values from backend environment configurations (`ALLOWED_ORIGINS`).
+
+### 🟠 P1 — Stability, Cleanliness & Dependencies (Medium Priority)
+* **Secure Token Storage (OS Keychain):** Move sensitive access/refresh tokens from plain JSON config (`~/.vsdev/config.json`) to the system keychain using `keytar` with secure fallbacks.
+* **Rate-Limiting Middleware:** Add `express-rate-limit` for authentication routes, provider endpoints, and restrict message frequency over Socket connections to prevent DoS attempts.
+* **Graceful Exception Cleanup & Safe Shutdown:** Rectify uncaught exception handlers in the backend to ensure safe server closures and proper cleanup of resources prior to process termination.
+* **Dependency Migration (Modern Terminal):** Migrate deprecated `xterm` packages and sub-modules to the scoped `@xterm/xterm` library inside `Terminal.jsx`.
+* **Repository Sanitation:** Exclude build logs, backups, and temporary scratch sheets (`*.bak`, `temp_*.txt`) from commits and update `.gitignore`.
+
+### 🟡 P2 — Production-Grade Roadmap (Future Sprints)
+* **Session Persistence (SQLite):** Replace ephemeral memory-based sessions with a local persistent store using `better-sqlite3`.
+* **Vitest Unit Test Suite:** Establish a backend test pipeline targeting file tools path-traverals and OAuth token lifecycle workflows.
+* **Semantic Versioning & Keep a Changelog:** Initialize official pre-release versioning schemas (`v0.1.0`) and set up an active `CHANGELOG.md`.
+
+---
+
 ## 🤝 Contributing
 
 We love contributions! Follow these steps to submit a feature:
